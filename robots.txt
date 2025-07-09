@@ -1,0 +1,17 @@
+# robots.txt for Mrunal Gangurde's Portfolio
+
+# Allow all well-behaved bots to crawl the site
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+
+# Optional: block known spammy bots (example)
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# Tell crawlers where to find the sitemap
+#Sitemap: https://yourdomain.com/sitemap.xml/

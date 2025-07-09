@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mrunal Gangurde | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <script src="https://unpkg.com/typewriter-effect@2.18.0/dist/core.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const element = document.getElementById('typed-text');
+    const typewriter = new Typewriter(element, {
+      loop: true,
+      delay: 75,
+      deleteSpeed: 50
+    });
+
+    typewriter
+      .typeString('Data Analyst')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('Python Developer')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('Data Science & ML Enthusiast')
+      .pauseFor(1500)
+      .start();
+  });
+  </script>
+</head>
+<body>
+  <section id="intro" class="section">
+    <div class="container">
+      <div class="profile-pic">
+        <img src="assets/img/profile.png" alt="Mrunal Gangurde" />
+      </div>
+      <h1>Hello, I'm Mrunal Gangurde</h1>
+      <div class="typing">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="bio">Bridging logic and creativity — one line of code at a time.</p>
+      <div class="social">
+        <a href="https://github.com/MrunalGangurde" class="icon-btn github" target="_blank">G</a>
+        <a href="https://www.linkedin.com/in/mrunal-gangurde-b0b32631a/" class="icon-btn linkedin" target="_blank">in</a>
+      </div>
+      <a href="#projects" class="readme">See Projects</a>
+      <a href="mailto:mrunalgangurde22@gmail.com" class="contactme">Contact Me</a>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h3>Skills</h3>
+    <ul>
+      <li>Python, MySQL, Pyspark</li>
+      <li>Scikit-learn, Pandas, NumPy</li>
+      <li>Power BI, Excel, Matplotlib, Streamlit</li>
+      <li>Git, Jupyter Notebook, VS Code</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h3>Projects</h3>
+    <div class="card">
+      <div class="card-title">HireGraph</div>
+      <img src="assets/img/projects/hiregraph.jpg" alt="HireGraph Screenshot" />
+      <p>Job Application Tracker & Resume Matcher</p>
+      <ul>
+        <li>Smart scoring system to match resumes with job descriptions</li>
+        <li>Flask backend, Firebase, Web Scraping</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title">InsightGrid</div>
+      <img src="assets/img/projects/insightgrid.jpg" alt="InsightGrid Dashboard" />
+      <p>Automated Business Dashboard</p>
+      <ul>
+        <li>Processes daily sales data using Python and SQL</li>
+        <li>Interactive dashboards via Power BI</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title">Sidekick</div>
+      <img src="assets/img/projects/sidekick.jpg" alt="Sidekick Team Chat UI" />
+      <p>AI-Powered Team Chat App</p>
+      <ul>
+        <li>Real-time Firebase-based messaging</li>
+        <li>Built-in assistant for summarization</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h3>Experience</h3>
+    <div class="card">
+      <div class="card-title">Junior Data Analyst – Learning Finch</div>
+      <img src="assets/img/companies/learning finch.png" alt="Learning Finch Logo" />
+      <ul>
+        <li>Built backend tools with Flask for reporting</li>
+        <li>Automated Excel reports and built SQL pipelines</li>
+        <li>Web scrapers with BeautifulSoup</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title">Operation Executive – Econship</div>
+      <img src="assets/img/companies/econshipping.jpg" alt="Econship Logo" />
+      <ul>
+        <li>Managed Dubai port logistics</li>
+        <li>Improved operations with MySQL and inventory tracking</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h3>Education</h3>
+    <img src="assets/img/edu/mumbai-university.jpg" alt="Mumbai University Logo" />
+    <p><strong>Bachelor of Engineering</strong> – Mechanical, Mumbai University (2018–2022)<br />
+    CGPA: 8.11</p>
+  </section>
+
+  <section id="certifications" class="section">
+    <h3>Certifications</h3>
+    <ul>
+      <li>AI for Everyone – Coursera</li>
+      <li>Structured Machine Learning Projects – Coursera</li>
+      <li>SQL & Java Programming – Besant Technologies</li>
+      <li>Python 3.4.3 Training – IIT Bombay</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Let's Connect</h3>
+    <p>Email: <a href="mailto:mrunalgangurde22@gmail.com">mrunalgangurde22@gmail.com</a></p>
+  </section>
+</body>
+</html>
